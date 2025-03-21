@@ -2141,7 +2141,7 @@ textarea.form-input::-webkit-resizer {
 
   .sidebar,
   article {
-    width: 950px;
+    width: 1000px;
     box-shadow: var(--shadow-5);
   }
 
