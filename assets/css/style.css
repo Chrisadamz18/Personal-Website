@@ -721,7 +721,7 @@ main {
 /* Project Modal Styles */
 .project-modal {
   background: var(--eerie-black-2);
-  width: 90%;
+  width: 50%;
   max-width: 600px;
   max-height: 60vh;
   padding: 25px;
@@ -732,7 +732,7 @@ main {
   flex-direction: column;
   position: relative; /* Ensure close button positioning works */
   z-index: 2;
-  /* min-height: 500px !important; */
+  min-height: 500px !important;
   
   
 }
@@ -783,9 +783,15 @@ main {
 
 .modal-image-box img {
   width: 100%;
-  max-width: 300px;
+  max-width: 600px;
   height: auto;
   border-radius: 8px;
+  display: block;
+  background: var(--jet);
+}
+.modal-image-box:hover {
+  transform: scale(1.02);
+  transition: transform var(--transition-1);
 }
 
 .modal-content {
@@ -799,8 +805,9 @@ main {
 }
 
 .modal-category {
+
   font-size: var(--fs-6);
-  color: var(--light-gray-70);
+  color: var(--orange-yellow-crayola) !important;
   margin-bottom: 15px;
 }
 

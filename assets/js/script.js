@@ -75,9 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const filterSelect = document.querySelector("[data-select]");
   const selectValue = document.querySelector("[data-select-value]");
 
-  // Debugging: Log the number of triggers and modals found
-  console.log("Found project triggers:", modalTriggers.length, modalTriggers);
-  console.log("Found modals:", modals.length, modals);
+
 
   // Filter Functionality
   function filterProjects(category) {
@@ -139,27 +137,23 @@ document.addEventListener("DOMContentLoaded", () => {
   modalTriggers.forEach((trigger) => {
     trigger.addEventListener("click", (e) => {
       e.preventDefault();
-      console.log(
-        "Project link clicked, projectId:",
-        trigger.getAttribute("data-project-id")
-      );
       const projectId = trigger.getAttribute("data-project-id");
       const targetModal = document.querySelector(
         `.modal-container[data-modal-container="${projectId}"]`
       );
-      console.log("Target modal:", targetModal);
+      
       if (targetModal) {
         targetModal.classList.add("active");
-        console.log("Modal classes after active:", targetModal.classList);
+        
         const overlay = targetModal.querySelector(".overlay");
         if (overlay) {
           overlay.classList.add("active");
-          console.log("Overlay classes after active:", overlay.classList);
+         
         } else {
-          console.log("Overlay not found in modal:", targetModal);
+         
         }
       } else {
-        console.log("Modal not found for projectId:", projectId);
+        
       }
     });
   });
