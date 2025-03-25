@@ -651,7 +651,7 @@ main {
   color: var(--light-gray-70);
   font-weight: var(--fw-300);
   margin-top: 10px;
-  margin-left: 13rem;
+  margin-left: 0;
   margin-right: 0;
 }
 
@@ -851,7 +851,7 @@ main {
 
 .modal-content time {
   font-size: var(--fs-6);
-  color: var(--light-gray-70);
+  color: var(--orange-yellow-crayola);
   font-weight: var(--fw-300);
   margin-bottom: 10px;
 }
