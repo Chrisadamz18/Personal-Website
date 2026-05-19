@@ -65,12 +65,12 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="relative flex justify-center md:justify-end"
           >
-            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border border-[var(--border)] bg-[var(--card)] shadow-2xl">
+            <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[420px] lg:h-[420px] rounded-2xl overflow-hidden border border-[var(--border)] bg-[var(--card)] shadow-2xl">
               <Image
                 src="/images/img-1.png"
                 alt="Christopher Dzorkpui — Product Designer & Software Engineer"
                 fill
-                sizes="(max-width: 768px) 256px, 320px"
+                sizes="(max-width: 768px) 288px, (max-width: 1024px) 384px, 420px"
                 className="object-cover"
                 priority
               />
