@@ -13,10 +13,14 @@ export function About() {
           </h2>
           <div className="mt-8 space-y-6 text-[var(--muted-foreground)] leading-relaxed text-base">
             <p>
-              I am a multidisciplinary Product Designer and Systems Engineer who acts as a strategic tech partner for high-growth startups and global product teams. I bridge the critical gap between pixel-perfect design systems, low-bandwidth UX architectures, and full-stack technical execution. My path took an unyielding, positive turn in November 2023 when I lost my left arm—I chose to meet that physical milestone with absolute resilience, translating that focus into a rigorous discipline for clean architecture, uncompromising product execution, and unbending grit.
+              I am a multidisciplinary Product Designer and Software Engineer who acts as a strategic tech partner for high-growth startups and global product teams. I bridge the critical gap between pixel-perfect design systems, low-bandwidth UX architectures, and full-stack technical execution. My path took an unyielding, positive turn in November 2023 when I lost my left arm—I chose to meet that physical milestone with absolute resilience, translating that focus into a rigorous discipline for clean architecture, uncompromising product execution, and unbending grit.
             </p>
             <p>
-              Today, I am architecting the digital footprint for <strong className="text-[var(--foreground)]">Bloom Health</strong>, a reproductive healthcare platform engineered for emerging markets, and building <strong className="text-[var(--foreground)]">Agave Rural Bank</strong>, a micro-payments and rural banking portal. Through <strong className="text-[var(--foreground)]">KM Media Training Institute</strong>, I engineer educational platforms and run dynamic product sprints with <strong className="text-[var(--foreground)]">MEST Africa</strong> and <strong className="text-[var(--foreground)]">Node Eight</strong>.
+              Today, I am developing and architecting the digital footprint for <strong className="text-[var(--foreground)]">Bloom Haven Healthcare</strong>, a healthtech platform engineered  to make sexual and 
+mental healthcare easy, accessible, and stigma-free for young people by 
+connecting them to qualified healthcare professionals. It integrates AI tools, 
+telehealth services, and local pharmacy & lab support ensuring that young people
+can easily find reliable care, information, and community support. 
             </p>
             <p>
               I operate with a founder&apos;s mindset. Whether designing high-converting layout templates, engineering custom educational databases, or consulting on financial inclusion platforms—I design and build digital ecosystems engineered for performance, real-world constraints, and business outcomes.

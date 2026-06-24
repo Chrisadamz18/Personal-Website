@@ -25,7 +25,7 @@ export default function Home() {
               Designing & building high-impact digital systems globally
             </h2>
             <p className="mt-6 text-[var(--muted-foreground)] leading-relaxed text-base">
-              I am a multidisciplinary Product Designer and Systems Engineer who acts as a strategic tech partner for seed-to-scale startups. After recovering from losing my left arm in November 2023, I chose to translate that personal milestone into absolute engineering grit, specializing in low-bandwidth UX designs and robust transactional systems.
+              I am a multidisciplinary Product Designer and Software Engineer who acts as a strategic tech partner for seed-to-scale startups. After recovering from losing my left arm in November 2023, I chose to translate that personal milestone into absolute engineering grit, specializing in low-bandwidth UX designs and robust transactional systems.
             </p>
             <div className="mt-8">
               <Magnetic>

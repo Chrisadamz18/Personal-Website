@@ -7,22 +7,22 @@ export function BeyondCode() {
     <section id="beyond" className="py-20 md:py-28">
       <div className="section-container">
         <ScrollAnimate className="max-w-3xl">
-          <p className="text-sm font-bold tracking-wider uppercase text-[var(--accent)] mb-4">Beyond Code & Design</p>
+          <p className="text-sm font-bold tracking-wider uppercase text-[var(--accent)] mb-4">Beyond Code</p>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--foreground)] leading-tight">
-            Ecosystem leadership, community growth, and global vision
+            The things that inspire me outside of work
           </h2>
           <p className="mt-6 text-[var(--muted-foreground)] leading-relaxed text-base">
-            I don&apos;t just build technical products—I invest in the communities that catalyze local design and technology ecosystems. Through <strong className="text-[var(--foreground)]">DesignHive</strong>, I lead design chapters across West Africa to empower, mentor, and inspire emerging digital creators. By training developers at <strong className="text-[var(--foreground)]">Node Eight</strong> and facilitating hands-on product design programs with <strong className="text-[var(--foreground)]">MEST Africa</strong>, my mission is to elevate technical talent, build digital trust, and drive sustainable innovation.
+            When I&apos;m not writing code or designing, you&apos;ll find me in the kitchen experimenting with new recipes cooking is my favorite way to unwind and get creative off-screen. I also love to <strong className="text-[var(--foreground)]">travel</strong> and immerse myself in different cultures, cuisines, and perspectives that shape how I think about design and problem-solving. Community is at the heart of everything I do whether it&apos;s mentoring emerging creators, volunteering, or simply connecting with people who share a passion for building and learning together.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a
+            {/* <a
               href={site.medium}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-full border border-[var(--border)] px-5 py-2.5 text-sm font-medium text-[var(--foreground)] hover:bg-[var(--card)] transition-colors"
             >
               Read Insights on Medium
-            </a>
+            </a> */}
             <Link
               href="#contact"
               className="inline-flex items-center rounded-full bg-[var(--accent)] px-5 py-2.5 text-sm font-bold text-black hover:opacity-90 transition-opacity"
