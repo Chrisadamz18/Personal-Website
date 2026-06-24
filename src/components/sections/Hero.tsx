@@ -33,7 +33,7 @@ export function Hero() {
               transition={{ duration: 0.4, delay: 0.16 }}
               className="mt-6 text-lg text-[var(--muted-foreground)] max-w-xl leading-relaxed"
             >
-              Hi, I&apos;m Christopher. A creative technologist and systems thinker engineering low-bandwidth mobile user flows, transaction gateways, and startup systems that build digital trust globally.
+              Multidisciplinary Product Designer &amp; Software Engineer bridging the gap between scalable design systems, robust UX architectures, and full-stack technical execution.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 16 }}

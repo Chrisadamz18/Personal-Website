@@ -159,6 +159,15 @@ export const experience = [
     ],
   },
   {
+    role: "Founder & CTO ",
+    company: "Bloom Haven Healthcare",
+    period: "Jan 2025 — Present",
+    highlights: [
+      "Leading technical strategy, platform architecture,developer, and product development.",
+      "Overseeing the engineering team to build scalable digital healthcare solutions.",
+    ],
+  },
+  {
     role: "Software Developer",
     company: "KM Media Training Institute",
     period: "Mar 2025 — Present",
@@ -209,6 +218,12 @@ export const experience = [
 ] as const;
 
 export const education = [
+  {
+    title: "Google Prompting Essentials - Professional Certificate",
+    org: "Coursera",
+    year: "2026",
+    description: "AI personalization, prompt engineering tools, data visualization, LLM application, context engineering, and complex problem solving using Generative AI and Agentic Workflows.",
+  },
   {
     title: "Google UX Design Professional Certificate",
     org: "Coursera",
