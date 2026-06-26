@@ -67,6 +67,7 @@ export const projects = [
     image: "/images/eve_cover.png",
     imageAlt: "EVE App Prototype",
     featured: true,
+    liveUrl: "",
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.evewomen.app",
     appStoreUrl: "https://apps.apple.com/app/eve-women/id1234567890",
     client: "EVE International Foundation",
