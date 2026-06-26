@@ -17,7 +17,7 @@ export function Hero() {
               transition={{ duration: 0.4 }}
               className="text-sm font-bold tracking-wider uppercase text-[var(--accent)] mb-4"
             >
-              Founder-Minded Product Designer & Systems Engineer
+              Founder-Minded Product Designer & Software Engineer
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 16 }}

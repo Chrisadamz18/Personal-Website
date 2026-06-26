@@ -72,7 +72,7 @@ export function QRCodePopover() {
               </svg>
             </div>
             <p className="mt-3 text-[10px] text-[var(--muted-foreground)] leading-normal">
-              Scan with your mobile camera to download Bloom Health for iOS & Android
+              Scan with your mobile camera to download Bloom Haven for iOS & Android
             </p>
           </div>
         </div>
