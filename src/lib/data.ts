@@ -64,7 +64,7 @@ export const projects = [
     process: "User discovery, journey mapping, algorithmic mentorship matching, and establishing reusable Figma component kits.",
     tools: ["Figma", "FigJam"],
     impact: "Successfully delivered an end-to-end interactive prototype containing unified design components bridging community safety, commercial tools, and career development.",
-    image: "/images/eve_cover.png",
+    image: "/images/eve_cover.jpg",
     imageAlt: "EVE App Prototype",
     featured: true,
     liveUrl: "",
